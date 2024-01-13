@@ -9,7 +9,7 @@ const App = () => {
   const [limit, setLimit] = React.useState(10); // Initial limit
 
   const handleData = (data) => {
-    setUsers((prevUsers) => [...prevUsers, data].slice(0, limit)); // Ensure the limit is applied
+    setUsers((prevUsers) => [...prevUsers, data].slice(0, limit)); 
   };
 
   const handleDelete = (id) => {
