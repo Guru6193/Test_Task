@@ -16,6 +16,31 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your local machine.
 
-```bash
 git clone https://github.com/Guru6193/Test_Task.git
 cd Test_Task/test-react-app
+
+Install dependencies.
+npm install
+Running the Application
+Start the React development server:
+
+
+npm start
+The application will be available at http://localhost:3000 in your web browser.
+
+Features
+Real-time data updates using WebSocket.
+Displaying user information in a table.
+Deleting users from the table.
+
+File Structure
+src/App.js: Main application component.
+src/WebSocketComponent.js: WebSocket integration component.
+src/components/UsersTable.js: Component for displaying user information.
+
+Usage
+The application automatically generates fake user data and updates the table every second.
+Users can be deleted by clicking the "Delete" button in the table.
+
+Limitations
+The application currently uses a hardcoded WebSocket server URL (ws://localhost:3050). Make sure the WebSocket server is running.
